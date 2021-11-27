@@ -4,6 +4,7 @@ jobs:
   test-python:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - name: install python
         with:
           python-version: 3.9
