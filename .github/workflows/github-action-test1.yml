@@ -8,6 +8,7 @@ jobs:
       - name: install python
         with:
           python-version: 3.9
+        run: ls
 
       - name: install dependencies
         run: |
