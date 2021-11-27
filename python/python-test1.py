@@ -1,5 +1,5 @@
 import requests
 
 print("测试--------------------------")
-response = requests.request(url="www.twitter.com", method="get")
-print(response.content)
+response = requests.get(url="http://www.twitter.com")
+print(response.text)
