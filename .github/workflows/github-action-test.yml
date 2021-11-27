@@ -1,12 +1,8 @@
-name: GitHub Actions Demo
+name: 测试action
 on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - run: echo "测试一下"
-      - run: echo "测试一下1"
-      - run: echo "测试一下2"
-      - run: echo "测试一下3"
-      - run: echo "测试一下4"
-      - run: echo "测试一下5"
+      - run: echo "test"
