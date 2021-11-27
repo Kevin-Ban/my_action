@@ -8,13 +8,12 @@ jobs:
       - name: install python
         with:
           python-version: 3.9
+        run: echo "install python"
 
       - name: install dependencies
-      - uses: actions/checkout@main
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
       - name: test print
-      - uses: actions/checkout@main
         run: python python/python-test1.py
