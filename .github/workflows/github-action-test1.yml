@@ -8,7 +8,6 @@ jobs:
       - name: install python
         with:
           python-version: 3.9
-        run: echo "install python"
 
       - name: install dependencies
         run: |
